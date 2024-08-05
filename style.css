@@ -1,0 +1,12 @@
+#title{   /* # Para IDs */
+    color: rgb(136, 0, 247);
+    text-align: center;
+}
+
+.inputs{ /* . Para Class */
+    border: 1px solid;
+}
+
+.baseboard{
+    border: 1px solid;
+}
