@@ -1,12 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 #title{   /* # Para IDs */
     color: rgb(136, 0, 247);
     text-align: center;
 }
 
-.inputs{ /* . Para Class */
+.form{ /* . Para Class */
     border: 1px solid;
+    min-height: 100vh; /* Altura mínima obrigatória da div */
+    max-width: 100vw; /* Largura mínima obrigatória da div */
+    display: flex; /* Flexibilidade de design */
+    flex-direction: column; /* Trabalhando com coluna */
+    padding-inline: 25rem; /* Distância lateral entre a borda do site e os elementos da div */
+    align-items: center; /* Centraliza na direção contrária da qual você está mexendo */
+    gap: 100px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .baseboard{
     border: 1px solid;
+}
+
+input {
+    width: 450px;
+}
+
+#age {
+    width: 125px;
 }
