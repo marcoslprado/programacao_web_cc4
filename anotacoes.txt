@@ -6,5 +6,3 @@ bottom: 0; -> Vai atuar junto com o comando de cima
 
 3. position: absolute; -> No css, fixa um elemento numa posição de acordo com o elemento pai.
 Posso dar junto um top: 50%; e um left: 50%; para centralizar tanto verticalmente quanto horizontalmente
-
-4 
