@@ -1,0 +1,10 @@
+1. position: fixed; -> No css fixa um elemento em relação à visão da página toda.
+Se eu quiser fixar na base da página por exemplo posso dar um:
+bottom: 0; -> Vai atuar junto com o comando de cima
+
+2. margin: auto; -> Posso automatizar margem dos dois lados para que a div fique centralizada
+
+3. position: absolute; -> No css, fixa um elemento numa posição de acordo com o elemento pai.
+Posso dar junto um top: 50%; e um left: 50%; para centralizar tanto verticalmente quanto horizontalmente
+
+4 
