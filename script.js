@@ -18,6 +18,6 @@ function submit(event) {
 }
 
 function validateEmail(email) {
-    const emailRegex = /^\w+.*@\w+(\.\w+)+$/;
+    const emailRegex = /^\w+(\.\w+)*@\w+(\.\w+)+$/;
     return emailRegex.test(email);
 }
