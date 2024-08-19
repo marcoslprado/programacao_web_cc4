@@ -9,7 +9,7 @@ function submit(event) {
 
     // Validar o email
     if (!validateEmail(elementEmail)) {
-        alert("Por favor, insira um e-mail válido.");
+        alert("Please, insert a valid email.");
         event.preventDefault(); // Evita que o formulário seja enviado
         return; // Sai da função se o e-mail for inválido
     }
@@ -18,6 +18,6 @@ function submit(event) {
 }
 
 function validateEmail(email) {
-    const emailRegex = /^\w+(\.\w+)*@\w+(\.\w+)+$/;
+    const emailRegex = /^[a-zA-Z0-9]+(\.[a-zA-Z0-9]+)*([-][a-zA-Z0-9]+)*@[a-zA-Z0-9]+(\.[a-zA-Z]{2,})+(\.[a-zA-Z]{2,})*$/;
     return emailRegex.test(email);
 }
